@@ -5,6 +5,7 @@ import Experience from './pages/Experience';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ProjectPage from './pages/ProjectPage';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Projects" element={<Projects />} />
+          <Route path="project/:id" element={<ProjectPage />} />
           <Route path="/experience" element={<Experience />} />
         </Routes>
         <Footer />

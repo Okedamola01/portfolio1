@@ -12,8 +12,12 @@ const Home = () => {
             <div className="prompt">
                 <p>A Fullstack developer with a passion for learning and creating.</p>
                 <LinkedInIcon />
-                <EmailIcon />
-                <GitHubIcon />
+                <a href="mailto:Okedamola01@gmail.com">
+                    <EmailIcon />
+                </a>
+                <a href="https://github.com/Okedamola01" target="_blank" rel="noopener noreferrer">
+                    <GitHubIcon />
+                </a>
             </div>
         </div>
         <div className="skills">
@@ -36,8 +40,12 @@ const Home = () => {
                     <span>JavaScript, Python, C++, C, Java</span>
                 </li>
                 <li className="item">
+                    <h2>Forex</h2>
+                    <span>Currency pair trading, Exotic pair trading and Synthetic indices trading</span>
+                </li>
+                <li className="item">
                     <h2>Design</h2>
-                    <span>Figma, Canva</span>
+                    <span>Canva</span>
                 </li>
             </ol>
         </div>

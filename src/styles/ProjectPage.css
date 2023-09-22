@@ -1,6 +1,6 @@
 .project {
     width: 100%;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 64px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +14,7 @@
 }
 
 .project img {
-    width: 600px;
+    width: 400px;
     border-radius: 10px;
 }
 
